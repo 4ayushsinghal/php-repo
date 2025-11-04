@@ -3,6 +3,14 @@
 /**
  * Displays site name.
  */
+function some_function()
+{
+    echo 'Hello World!';
+}
+
+/**
+ * Displays site name.
+ */
 function site_name()
 {
     echo config('name');
